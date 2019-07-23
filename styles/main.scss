@@ -1,3 +1,17 @@
-.customClassFromFile{
-    color: blue;
-}
+@import './shared/_fonts';
+@import './_index';
+
+html, body {
+    height:100%;
+    width:100%;
+    font-family: 'Montserrat', 'Helvetica';
+  }
+
+  .self-type{
+      font-size: 31px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: white;
+  }
+  
+  

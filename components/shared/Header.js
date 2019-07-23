@@ -8,9 +8,6 @@ class Header extends React.Component {
         const title = this.props.title;
         return (
             <React.Fragment>
-                {title}
-                <p className="customClassFromFile">My class</p>
-                {this.props.children}
                 <Link href="/">
                     <a> Home </a>
                 </Link>
@@ -26,14 +23,6 @@ class Header extends React.Component {
                 <Link href="/cv">
                     <a> CV </a>
                 </Link>
-                <style jsx>{`
-                    *{
-                        font-size: 13px;
-                    };
-                    .customClass{
-                        color: red;
-                    }
-                `}</style>
             </React.Fragment>
         )
     }
